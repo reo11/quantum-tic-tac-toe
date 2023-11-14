@@ -238,6 +238,7 @@ class Game:
             print("Enter the value between 1 to 9 (White 1 ... 9 Black")
             value = self.valid_value()
             self.board.set_value(col, row, value)
+            self.board.print_board(player_num)
             print(f"Player {PLAYER_NAMES[player_num]} placed {value} at {chr(ord('A') + col)}{row + 1}")
             print("Do you want to make an observation? (y/n)")
             obs = self.valid_obs()
