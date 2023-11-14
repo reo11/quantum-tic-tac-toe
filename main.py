@@ -1,5 +1,4 @@
 import random
-from collections import defaultdict
 # 量子五目並べ
 # 一旦10x10
 # https://www.youtube.com/watch?v=mitAxA3f4U4

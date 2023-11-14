@@ -2,6 +2,15 @@
 量子五目並べ
 https://www.youtube.com/watch?v=mitAxA3f4U4
 
+## ゲームの始め方
+```
+python main.py
+```
+
+## 注意点
+- ゲームを中断しようすると無限ループが発生するので注意
+
+## 決着例
 ```
 x: Black, o: White
   A B C D E F G H I J
