@@ -146,6 +146,13 @@ class Board:
                         if streak[0] == bw["o"]:
                             if flag == 1:
                                 return 2
+                            else:
+                                flag = 0
+                        else:
+                            if flag == 0:
+                                return 2
+                            else:
+                                flag = 1
             streak = []
 
         # 斜め(右上から左下)
@@ -167,9 +174,13 @@ class Board:
                         if streak[0] == bw["o"]:
                             if flag == 1:
                                 return 2
+                            else:
+                                flag = 0
                         else:
                             if flag == 0:
                                 return 2
+                            else:
+                                flag = 1
             streak = []
         return flag
 
